@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Nunito Sans;
+    background: rgb(224, 125, 4);
+}
+header{
+    background:  #100f10;
+    padding-left: 50px;
+    padding-right:50px;
+    width: 100%;
+    height: 150px;
+}
+.logo{
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 20PX;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.navpanel{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+nav li{
+    display: inline-block;
+    
+}
+nav ul li{
+   margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.col2{
+    padding: 40px;
+    flex-basis: 50%;
+    max-width: 300px;
+   
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#about{
+   display: flex;
+   padding: 10px;
+   margin-left: 40px;
+   padding-bottom: 50px;
+   padding-top: 30px;
+}
+#about p{
+    padding: 50px;
+}
+.col4{
+    padding: 20px;
+    flex-basis: 25%;
+    max-width: 300px;
+    margin-left: 40px;
+}
+.col4 img{
+    width: 200px;
+    transition: transform 0.5s;
+    
+}
+
+.btn{
+    width: 90px;
+    height: 40px;
+    background: #090909;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(10, 1, 1);
+    transition: 0.4s ease;
+}
+#contacts{
+    padding-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    font-size: 26px;
+    text-align: center;
+}
+.footer{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+ion-icon{
+    color: #fff;
+    font-size: 16px;
+
+}
