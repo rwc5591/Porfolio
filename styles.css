@@ -5,7 +5,7 @@
 }
 body{
     font-family: Nunito Sans;
-    background: rgb(224, 125, 4);
+    background: linear-gradient(90deg, rgba(70,206,210,0.9626444327731093) 0%, rgba(204,200,126,1) 35%, rgba(0,212,255,1) 100%);
 }
 header{
     background:  #100f10;
@@ -20,10 +20,10 @@ header{
     letter-spacing: 3px;
 }
 h2{
-    text-align: center;
+    /* text-align: center; */
     font-weight: 600;
-    font-size: 36px;
-    padding: 20PX;
+    font-size: 26px;
+    /* padding: 20PX; */
 }
 nav{
     flex: 1;
@@ -84,8 +84,9 @@ a{
     margin-left: 40px;
 }
 .col4 img{
-    width: 200px;
+    width: 150px;
     transition: transform 0.5s;
+    border-radius: 30px;
     
 }
 
